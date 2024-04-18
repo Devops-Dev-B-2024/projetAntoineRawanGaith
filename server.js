@@ -6,6 +6,8 @@ const app = express();
 
 app.use(express.json);
 
+const testRouter = require("./routers/test");
+
 app.use("/test", testRouter);
 
 app.use((error, req, res, next) => {
