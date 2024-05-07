@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Déploiement de l'application"'
+                sh 'echo "Déploiement de l\'application"'
             }
         }
     }
@@ -33,3 +33,5 @@ pipeline {
         }
     }
 }
+
+
