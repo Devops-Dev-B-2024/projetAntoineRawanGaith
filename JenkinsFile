@@ -28,7 +28,7 @@ pipeline {
             emailext (
                 subject: "Notification de Build - ${currentBuild.result}",
                 body: "La build ${env.BUILD_NUMBER} de votre projet a ${currentBuild.result == 'SUCCESS' ? 'réussi' : 'échoué'}.",
-                to: "Benhadighaith@email.com"
+                to: "Benhadighaith@gmail.com"
             )
         }
     }
