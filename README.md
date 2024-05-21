@@ -82,6 +82,7 @@ Description : J'ai configuré Jenkins pour automatiser notre processus d'intégr
 Problèmes ou difficultés rencontrés : En tant que débutant sur Jenkins, la configuration initiale était assez complexe. Il m'a fallu un certain temps pour comprendre les différents types de jobs et comment les configurer correctement. La documentation et les tutoriels en ligne m'ont beaucoup aidé, mais la prise en main reste un défi pour les novices.
 
 **Sécurisation des builds et déploiement**
+
 Description : J'ai mis en place des mesures de sécurité et des procédures de déploiement pour garantir la qualité et la fiabilité de nos builds :
 
 1. Notifications par email : configuration des notifications pour informer l'équipe des résultats des builds.
@@ -91,6 +92,7 @@ Description : J'ai mis en place des mesures de sécurité et des procédures de 
 Problèmes ou difficultés rencontrés : La configuration des notifications et du déploiement automatique a posé quelques défis, notamment en ce qui concerne les permissions et l'accès aux serveurs. J'ai également dû ajuster les paramètres de sécurité pour s'assurer que seuls les builds approuvés soient déployés en production.
 
 **Test et résultat**
+
 Pour valider les builds et les déploiements, j'ai mis en place une série de tests automatisés et manuels :
 
 1. Exécution de tests unitaires et d'intégration à chaque build.
