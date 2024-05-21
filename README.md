@@ -71,6 +71,7 @@ J'ai appris les bonnes pratiques concernant la séparation des stages (définiti
 ### Configuration et mise en place de Jenkins CI
 
 **Configuration des jobs Jenkins**
+
 Description : J'ai configuré Jenkins pour automatiser notre processus d'intégration continue de la manière suivante :
 
 1. Création d'un job freestyle pour le build principal.
