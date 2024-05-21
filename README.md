@@ -68,6 +68,39 @@ J'ai appris les bonnes pratiques concernant la séparation des stages (définiti
 ![screen3](https://github.com/Devops-Dev-B-2024/projetAntoineRawanGaith/assets/113984329/9bf0c0fe-418c-49e8-8ad9-2a14d10fe6f8)
 ![screen4](https://github.com/Devops-Dev-B-2024/projetAntoineRawanGaith/assets/113984329/9c5e3cd9-df9a-4a6a-96bf-744e8dd44f76)
 ### Jenkins (Ghaith)
+### Configuration et mise en place de Jenkins CI
+
+**Configuration des jobs Jenkins**
+Description : J'ai configuré Jenkins pour automatiser notre processus d'intégration continue de la manière suivante :
+
+1. Création d'un job freestyle pour le build principal.
+2. Configuration du dépôt Git : j'ai spécifié l'URL du dépôt et les informations d'identification nécessaires.
+3. Définition des déclencheurs de build : les builds sont déclenchés à chaque push sur la branche "development" et via pull request sur "main".
+4. Ajout des étapes de build : compilation du code, exécution des tests unitaires, et analyse statique du code avec des outils comme SonarQube.
+
+Problèmes ou difficultés rencontrés : En tant que débutant sur Jenkins, la configuration initiale était assez complexe. Il m'a fallu un certain temps pour comprendre les différents types de jobs et comment les configurer correctement. La documentation et les tutoriels en ligne m'ont beaucoup aidé, mais la prise en main reste un défi pour les novices.
+
+**Sécurisation des builds et déploiement**
+Description : J'ai mis en place des mesures de sécurité et des procédures de déploiement pour garantir la qualité et la fiabilité de nos builds :
+
+1. Notifications par email : configuration des notifications pour informer l'équipe des résultats des builds.
+2. Déploiement automatique : utilisation de plugins pour déployer automatiquement les builds réussis sur un serveur de staging.
+3. Revue par un collaborateur : ajout d'une étape de revue obligatoire avant le déploiement sur l'environnement de production.
+
+Problèmes ou difficultés rencontrés : La configuration des notifications et du déploiement automatique a posé quelques défis, notamment en ce qui concerne les permissions et l'accès aux serveurs. J'ai également dû ajuster les paramètres de sécurité pour s'assurer que seuls les builds approuvés soient déployés en production.
+
+**Test et résultat**
+Pour valider les builds et les déploiements, j'ai mis en place une série de tests automatisés et manuels :
+
+1. Exécution de tests unitaires et d'intégration à chaque build.
+2. Validation des résultats des tests avant le déploiement.
+3. Revue des logs et des rapports de build pour identifier et résoudre les éventuels problèmes.
+
+Dans l'exemple, le workflow a été exécuté avec succès, et nous pouvons voir le détail des différentes étapes (compilation, tests, déploiement) sur le tableau de bord Jenkins.
+
+Ces configurations et procédures assurent un processus d'intégration continue robuste et fiable, facilitant le développement et le déploiement de notre application.
+
+
 ## 3. Analyse comparative
 Nous avons fais une analyse comparative de ces 3 outils selon 6 points spécifiques : 
 1. Facilité de configuration​
